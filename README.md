@@ -264,4 +264,4 @@ tensorflow  (dataset loading only)
 ---
 
 ## Author
-Timothé Jammes — [GitHub profile link] — timothe.jammes@gmail.com
+Timothé Jammes — https://github.com/TimoJammes — timothe.jammes@gmail.com
