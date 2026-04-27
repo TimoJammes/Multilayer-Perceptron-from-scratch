@@ -1,0 +1,35 @@
+{
+    "dataset": "MNIST",
+
+    "model": {
+        "loss": "crossentropy",
+        "layers": {
+            "hidden": {
+                "dims": [512, 256, 128, 64],
+                "activations": ["leakyrelu", "leakyrelu", "leakyrelu", "leakyrelu", "leakyrelu", "leakyrelu"]
+            },
+            "output": {
+                "dim": 10,
+                "activation": "softmax"
+            }
+        },
+        "do_batch_norm": "True"
+    },
+
+    "training": {
+        "tests_per_epoch": 1024,
+        "epochs": 50,
+        "LR": 1e-2,
+        "momentum": 0.9,
+        "batch_size": 256,
+        "min_accuracy_cutoff": 98,
+        "show_testing_accuracy": 1,
+        "show_epoch_completion_%": 1,
+        "show_visual_loss": 0,
+        
+        "log_params": 0,
+        "log_file_name": "bla",
+
+        "num_training_samples": -1
+    }
+}

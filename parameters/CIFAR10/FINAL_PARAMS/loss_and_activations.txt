@@ -1,0 +1,6 @@
+crossentropy
+
+leakyrelu
+leakyrelu
+leakyrelu
+softmax

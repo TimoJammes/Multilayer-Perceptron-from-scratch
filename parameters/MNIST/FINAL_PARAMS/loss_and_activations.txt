@@ -1,0 +1,4 @@
+crossentropy
+relu
+relu
+softmax

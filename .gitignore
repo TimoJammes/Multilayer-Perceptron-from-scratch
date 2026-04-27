@@ -1,0 +1,30 @@
+parameters/**
+
+!parameters/MNIST/
+!parameters/MNIST/FINAL_PARAMS/
+!parameters/MNIST/FINAL_PARAMS/**
+
+!parameters/FASHION_MNIST/
+!parameters/FASHION_MNIST/FINAL_PARAMS/
+!parameters/FASHION_MNIST/FINAL_PARAMS/**
+
+!parameters/CIFAR10/
+!parameters/CIFAR10/FINAL_PARAMS/
+!parameters/CIFAR10/FINAL_PARAMS/**
+
+deprecated/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.claude/
