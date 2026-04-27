@@ -86,6 +86,8 @@ For any file that uses arguments in command line, you may type ```python -m "fil
 python -m testing.MNIST_user_input (--params_folder <model_name>)
 ```
 
+Backspace to reset canvas.
+
 ### Train a model
 
 ```bash
