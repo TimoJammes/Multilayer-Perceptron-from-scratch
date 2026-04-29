@@ -7,15 +7,17 @@ A fully custom feedforward neural network built from scratch using NumPy. Tested
 ## Features
 
 - Dense (fully-connected) network with configurable depth and width
+- Configurable activations (ReLU, leaky-ReLU, sigmoid) and loss (cross-entropy, MSE) functions 
 - Batch normalization (optional, per layer)
 - SGD optimizer with momentum
 - Z-score input normalization using training set statistics
 - Mini-batch training with shuffling each epoch
 - Early stopping via minimum accuracy threshold
 - Real-time loss/accuracy visualization during training
+- Full model persistence — save and reload trained weights, biases, and normalization stats
 - Interactive test-set browser to inspect predictions
 - Comprehensive evaluation metrics (accuracy, precision, recall, F1, confusion matrix)
-- Full model persistence — save and reload trained weights, biases, and normalization stats
+- Draw-to-Prediction user input for MNIST dataset
 
 ---
 
